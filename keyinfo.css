@@ -22,7 +22,7 @@ body {
 
 .details {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 
@@ -33,7 +33,6 @@ body {
     /* background-color: aqua; */
     /* padding: 0 5px; */
     margin: 5px;
-    transition: margin 400ms;
     /* background-color: #fff; */
 }
 
@@ -42,6 +41,8 @@ body {
     cursor: pointer;
     margin-top: 2px;
     margin-bottom: 8px;
+    transition: margin 400ms;
+
 }
 
 .title {

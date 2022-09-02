@@ -12,9 +12,9 @@ const keyPEW = document.querySelector('.eventwitch .keyP');
 const infoEW = document.querySelector('.eventwitch .info');
 
 
-document.body.addEventListener('keypress', (e) => {
-    char.innerHTML = e.charCode;
-
+document.body.addEventListener('keydown', (e) => {
+    char.innerHTML = e.keyCode;
+    e.preventDefault();
     keyPEK.innerHTML = e.key;
     infoEK.innerHTML = "The value of the key pressed. Accounts for modifiers keys that return CAPS and alternate chars.";
 
